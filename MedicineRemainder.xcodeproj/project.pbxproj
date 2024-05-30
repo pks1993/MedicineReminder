@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A79EC6CE44A634F80D41623 /* Pods_MedicineRemainder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB357F19D5D7D0CB88B430AE /* Pods_MedicineRemainder.framework */; };
+		44F99272B70818BE90AA9D3E /* Pods_MedicineRemainder_MedicineRemainderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FBCC129089A777EF843026 /* Pods_MedicineRemainder_MedicineRemainderUITests.framework */; };
+		8D03BF486C94E5FA81A72989 /* Pods_MedicineRemainderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2D7A7848B520D05A1D192A /* Pods_MedicineRemainderTests.framework */; };
+		F0047B752C059C56000B7707 /* MedicineRemainderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047B742C059C56000B7707 /* MedicineRemainderApp.swift */; };
+		F0047B792C059C58000B7707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0047B782C059C58000B7707 /* Assets.xcassets */; };
+		F0047B7C2C059C58000B7707 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0047B7B2C059C58000B7707 /* Preview Assets.xcassets */; };
+		F0047B862C059C59000B7707 /* MedicineRemainderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047B852C059C59000B7707 /* MedicineRemainderTests.swift */; };
+		F0047B902C059C59000B7707 /* MedicineRemainderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047B8F2C059C59000B7707 /* MedicineRemainderUITests.swift */; };
+		F0047B922C059C59000B7707 /* MedicineRemainderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047B912C059C59000B7707 /* MedicineRemainderUITestsLaunchTests.swift */; };
+		F0047BA22C059FCF000B7707 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BA12C059FCF000B7707 /* HomeView.swift */; };
+		F0047BA42C059FDE000B7707 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BA32C059FDE000B7707 /* CalendarView.swift */; };
+		F0047BB72C05A3B8000B7707 /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BB62C05A3B8000B7707 /* View + Extension.swift */; };
+		F0047BBA2C05A59B000B7707 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BB92C05A59B000B7707 /* HomeViewModel.swift */; };
+		F0047BBC2C05A643000B7707 /* DateTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BBB2C05A643000B7707 /* DateTypeView.swift */; };
+		F0047BBE2C05B7B5000B7707 /* AddNewRemainderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BBD2C05B7B5000B7707 /* AddNewRemainderView.swift */; };
+		F0047BC12C05BD0C000B7707 /* AddNewRemainderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BC02C05BD0C000B7707 /* AddNewRemainderViewModel.swift */; };
+		F0047BC42C05BD2E000B7707 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BC32C05BD2E000B7707 /* Enums.swift */; };
+		F0047BC62C05BF59000B7707 /* MedicineTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BC52C05BF59000B7707 /* MedicineTypeView.swift */; };
+		F0047BC82C05C896000B7707 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BC72C05C896000B7707 /* ScheduleView.swift */; };
+		F0047BCA2C05DB88000B7707 /* DurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BC92C05DB88000B7707 /* DurationView.swift */; };
+		F0047BCC2C061105000B7707 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BCB2C061105000B7707 /* NoteView.swift */; };
+		F0047BCF2C062469000B7707 /* RemainderObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BCE2C062469000B7707 /* RemainderObj.swift */; };
+		F0047BD22C062624000B7707 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BD12C062624000B7707 /* DatabaseManager.swift */; };
+		F0047BD52C0635D8000B7707 /* AddNewRemainderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BD42C0635D8000B7707 /* AddNewRemainderModel.swift */; };
+		F0047BD82C0644DC000B7707 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BD72C0644DC000B7707 /* HomeModel.swift */; };
+		F0047BDA2C0647F1000B7707 /* RemainderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0047BD92C0647F1000B7707 /* RemainderItemView.swift */; };
+		F0B9432F2C07415900B1569B /* RemainderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B9432E2C07415900B1569B /* RemainderManager.swift */; };
+		F0B943322C07533200B1569B /* DatePicketSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B943312C07533200B1569B /* DatePicketSheetView.swift */; };
+		F0B943342C0754C000B1569B /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B943332C0754C000B1569B /* Date + Extension.swift */; };
+		F0B943362C07703A00B1569B /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B943352C07703A00B1569B /* String + Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0047B822C059C59000B7707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0047B692C059C56000B7707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0047B702C059C56000B7707;
+			remoteInfo = MedicineRemainder;
+		};
+		F0047B8C2C059C59000B7707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0047B692C059C56000B7707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0047B702C059C56000B7707;
+			remoteInfo = MedicineRemainder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B2D7A7848B520D05A1D192A /* Pods_MedicineRemainderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicineRemainderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4996A9619279361F3772EC2F /* Pods-MedicineRemainder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineRemainder.debug.xcconfig"; path = "Target Support Files/Pods-MedicineRemainder/Pods-MedicineRemainder.debug.xcconfig"; sourceTree = "<group>"; };
+		4B6CD33C3CFA68B7EE8AC439 /* Pods-MedicineRemainder-MedicineRemainderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineRemainder-MedicineRemainderUITests.release.xcconfig"; path = "Target Support Files/Pods-MedicineRemainder-MedicineRemainderUITests/Pods-MedicineRemainder-MedicineRemainderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50CAA53DFF190BED18DF0535 /* Pods-MedicineRemainderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineRemainderTests.debug.xcconfig"; path = "Target Support Files/Pods-MedicineRemainderTests/Pods-MedicineRemainderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5136E8913C38EC6A581D3FE7 /* Pods-MedicineRemainderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineRemainderTests.release.xcconfig"; path = "Target Support Files/Pods-MedicineRemainderTests/Pods-MedicineRemainderTests.release.xcconfig"; sourceTree = "<group>"; };
+		968D5569798F044D32409E67 /* Pods-MedicineRemainder-MedicineRemainderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineRemainder-MedicineRemainderUITests.debug.xcconfig"; path = "Target Support Files/Pods-MedicineRemainder-MedicineRemainderUITests/Pods-MedicineRemainder-MedicineRemainderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FBCC129089A777EF843026 /* Pods_MedicineRemainder_MedicineRemainderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicineRemainder_MedicineRemainderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB357F19D5D7D0CB88B430AE /* Pods_MedicineRemainder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicineRemainder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0047B712C059C56000B7707 /* MedicineRemainder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicineRemainder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0047B742C059C56000B7707 /* MedicineRemainderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineRemainderApp.swift; sourceTree = "<group>"; };
+		F0047B782C059C58000B7707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0047B7B2C059C58000B7707 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0047B812C059C59000B7707 /* MedicineRemainderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineRemainderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0047B852C059C59000B7707 /* MedicineRemainderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineRemainderTests.swift; sourceTree = "<group>"; };
+		F0047B8B2C059C59000B7707 /* MedicineRemainderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineRemainderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0047B8F2C059C59000B7707 /* MedicineRemainderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineRemainderUITests.swift; sourceTree = "<group>"; };
+		F0047B912C059C59000B7707 /* MedicineRemainderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineRemainderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0047BA12C059FCF000B7707 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F0047BA32C059FDE000B7707 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F0047BB62C05A3B8000B7707 /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
+		F0047BB92C05A59B000B7707 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F0047BBB2C05A643000B7707 /* DateTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTypeView.swift; sourceTree = "<group>"; };
+		F0047BBD2C05B7B5000B7707 /* AddNewRemainderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRemainderView.swift; sourceTree = "<group>"; };
+		F0047BC02C05BD0C000B7707 /* AddNewRemainderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRemainderViewModel.swift; sourceTree = "<group>"; };
+		F0047BC32C05BD2E000B7707 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		F0047BC52C05BF59000B7707 /* MedicineTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineTypeView.swift; sourceTree = "<group>"; };
+		F0047BC72C05C896000B7707 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		F0047BC92C05DB88000B7707 /* DurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationView.swift; sourceTree = "<group>"; };
+		F0047BCB2C061105000B7707 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		F0047BCE2C062469000B7707 /* RemainderObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderObj.swift; sourceTree = "<group>"; };
+		F0047BD12C062624000B7707 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		F0047BD42C0635D8000B7707 /* AddNewRemainderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRemainderModel.swift; sourceTree = "<group>"; };
+		F0047BD72C0644DC000B7707 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		F0047BD92C0647F1000B7707 /* RemainderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderItemView.swift; sourceTree = "<group>"; };
+		F0B9432E2C07415900B1569B /* RemainderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderManager.swift; sourceTree = "<group>"; };
+		F0B943302C07482000B1569B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F0B943312C07533200B1569B /* DatePicketSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicketSheetView.swift; sourceTree = "<group>"; };
+		F0B943332C0754C000B1569B /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		F0B943352C07703A00B1569B /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		FE7FE5238A4A08C244DF55D3 /* Pods-MedicineRemainder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineRemainder.release.xcconfig"; path = "Target Support Files/Pods-MedicineRemainder/Pods-MedicineRemainder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0047B6E2C059C56000B7707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A79EC6CE44A634F80D41623 /* Pods_MedicineRemainder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0047B7E2C059C59000B7707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D03BF486C94E5FA81A72989 /* Pods_MedicineRemainderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0047B882C059C59000B7707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F99272B70818BE90AA9D3E /* Pods_MedicineRemainder_MedicineRemainderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16ED8E558E23685C06434027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4996A9619279361F3772EC2F /* Pods-MedicineRemainder.debug.xcconfig */,
+				FE7FE5238A4A08C244DF55D3 /* Pods-MedicineRemainder.release.xcconfig */,
+				968D5569798F044D32409E67 /* Pods-MedicineRemainder-MedicineRemainderUITests.debug.xcconfig */,
+				4B6CD33C3CFA68B7EE8AC439 /* Pods-MedicineRemainder-MedicineRemainderUITests.release.xcconfig */,
+				50CAA53DFF190BED18DF0535 /* Pods-MedicineRemainderTests.debug.xcconfig */,
+				5136E8913C38EC6A581D3FE7 /* Pods-MedicineRemainderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1C723A4CFA0C35DE41D63870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB357F19D5D7D0CB88B430AE /* Pods_MedicineRemainder.framework */,
+				D9FBCC129089A777EF843026 /* Pods_MedicineRemainder_MedicineRemainderUITests.framework */,
+				3B2D7A7848B520D05A1D192A /* Pods_MedicineRemainderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0047B682C059C56000B7707 = {
+			isa = PBXGroup;
+			children = (
+				F0047B732C059C56000B7707 /* MedicineRemainder */,
+				F0047B842C059C59000B7707 /* MedicineRemainderTests */,
+				F0047B8E2C059C59000B7707 /* MedicineRemainderUITests */,
+				F0047B722C059C56000B7707 /* Products */,
+				16ED8E558E23685C06434027 /* Pods */,
+				1C723A4CFA0C35DE41D63870 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0047B722C059C56000B7707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0047B712C059C56000B7707 /* MedicineRemainder.app */,
+				F0047B812C059C59000B7707 /* MedicineRemainderTests.xctest */,
+				F0047B8B2C059C59000B7707 /* MedicineRemainderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0047B732C059C56000B7707 /* MedicineRemainder */ = {
+			isa = PBXGroup;
+			children = (
+				F0B943302C07482000B1569B /* Info.plist */,
+				F0047BCD2C06245B000B7707 /* Object */,
+				F0047B9E2C059FB7000B7707 /* Modules */,
+				F0047B742C059C56000B7707 /* MedicineRemainderApp.swift */,
+				F0047BD02C062619000B7707 /* Managers */,
+				F0047BC22C05BD24000B7707 /* Public */,
+				F0047BB52C05A3A9000B7707 /* Extension */,
+				F0047B782C059C58000B7707 /* Assets.xcassets */,
+				F0047B7A2C059C58000B7707 /* Preview Content */,
+			);
+			path = MedicineRemainder;
+			sourceTree = "<group>";
+		};
+		F0047B7A2C059C58000B7707 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0047B7B2C059C58000B7707 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0047B842C059C59000B7707 /* MedicineRemainderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0047B852C059C59000B7707 /* MedicineRemainderTests.swift */,
+			);
+			path = MedicineRemainderTests;
+			sourceTree = "<group>";
+		};
+		F0047B8E2C059C59000B7707 /* MedicineRemainderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0047B8F2C059C59000B7707 /* MedicineRemainderUITests.swift */,
+				F0047B912C059C59000B7707 /* MedicineRemainderUITestsLaunchTests.swift */,
+			);
+			path = MedicineRemainderUITests;
+			sourceTree = "<group>";
+		};
+		F0047B9E2C059FB7000B7707 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BAD2C05A30E000B7707 /* Remainder */,
+				F0047B9F2C059FBF000B7707 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F0047B9F2C059FBF000B7707 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BD62C0644CA000B7707 /* Models */,
+				F0047BB82C05A58E000B7707 /* ViewModels */,
+				F0047BA02C059FC2000B7707 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F0047BA02C059FC2000B7707 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BA12C059FCF000B7707 /* HomeView.swift */,
+				F0047BA32C059FDE000B7707 /* CalendarView.swift */,
+				F0047BBB2C05A643000B7707 /* DateTypeView.swift */,
+				F0047BD92C0647F1000B7707 /* RemainderItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0047BAD2C05A30E000B7707 /* Remainder */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BD32C0635C7000B7707 /* Models */,
+				F0047BBF2C05BCF8000B7707 /* ViewModel */,
+				F0047BAE2C05A314000B7707 /* Views */,
+			);
+			path = Remainder;
+			sourceTree = "<group>";
+		};
+		F0047BAE2C05A314000B7707 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BBD2C05B7B5000B7707 /* AddNewRemainderView.swift */,
+				F0047BC52C05BF59000B7707 /* MedicineTypeView.swift */,
+				F0047BC72C05C896000B7707 /* ScheduleView.swift */,
+				F0047BC92C05DB88000B7707 /* DurationView.swift */,
+				F0047BCB2C061105000B7707 /* NoteView.swift */,
+				F0B943312C07533200B1569B /* DatePicketSheetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0047BB52C05A3A9000B7707 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BB62C05A3B8000B7707 /* View + Extension.swift */,
+				F0B943332C0754C000B1569B /* Date + Extension.swift */,
+				F0B943352C07703A00B1569B /* String + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F0047BB82C05A58E000B7707 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BB92C05A59B000B7707 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F0047BBF2C05BCF8000B7707 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BC02C05BD0C000B7707 /* AddNewRemainderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0047BC22C05BD24000B7707 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BC32C05BD2E000B7707 /* Enums.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F0047BCD2C06245B000B7707 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BCE2C062469000B7707 /* RemainderObj.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		F0047BD02C062619000B7707 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BD12C062624000B7707 /* DatabaseManager.swift */,
+				F0B9432E2C07415900B1569B /* RemainderManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F0047BD32C0635C7000B7707 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BD42C0635D8000B7707 /* AddNewRemainderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F0047BD62C0644CA000B7707 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F0047BD72C0644DC000B7707 /* HomeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0047B702C059C56000B7707 /* MedicineRemainder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0047B952C059C59000B7707 /* Build configuration list for PBXNativeTarget "MedicineRemainder" */;
+			buildPhases = (
+				1CBBD9A222CAD6CC7FF5EE7D /* [CP] Check Pods Manifest.lock */,
+				F0047B6D2C059C56000B7707 /* Sources */,
+				F0047B6E2C059C56000B7707 /* Frameworks */,
+				F0047B6F2C059C56000B7707 /* Resources */,
+				EDF13D8F8EDF64368F2A72B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicineRemainder;
+			productName = MedicineRemainder;
+			productReference = F0047B712C059C56000B7707 /* MedicineRemainder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0047B802C059C59000B7707 /* MedicineRemainderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0047B982C059C59000B7707 /* Build configuration list for PBXNativeTarget "MedicineRemainderTests" */;
+			buildPhases = (
+				2DAAB61E926DCCB3D98624BF /* [CP] Check Pods Manifest.lock */,
+				F0047B7D2C059C59000B7707 /* Sources */,
+				F0047B7E2C059C59000B7707 /* Frameworks */,
+				F0047B7F2C059C59000B7707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0047B832C059C59000B7707 /* PBXTargetDependency */,
+			);
+			name = MedicineRemainderTests;
+			productName = MedicineRemainderTests;
+			productReference = F0047B812C059C59000B7707 /* MedicineRemainderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0047B8A2C059C59000B7707 /* MedicineRemainderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0047B9B2C059C59000B7707 /* Build configuration list for PBXNativeTarget "MedicineRemainderUITests" */;
+			buildPhases = (
+				68ABFB9123B895F07DEA2568 /* [CP] Check Pods Manifest.lock */,
+				F0047B872C059C59000B7707 /* Sources */,
+				F0047B882C059C59000B7707 /* Frameworks */,
+				F0047B892C059C59000B7707 /* Resources */,
+				75AB19A3DCBB06A44C232158 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0047B8D2C059C59000B7707 /* PBXTargetDependency */,
+			);
+			name = MedicineRemainderUITests;
+			productName = MedicineRemainderUITests;
+			productReference = F0047B8B2C059C59000B7707 /* MedicineRemainderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0047B692C059C56000B7707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F0047B702C059C56000B7707 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F0047B802C059C59000B7707 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F0047B702C059C56000B7707;
+					};
+					F0047B8A2C059C59000B7707 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F0047B702C059C56000B7707;
+					};
+				};
+			};
+			buildConfigurationList = F0047B6C2C059C56000B7707 /* Build configuration list for PBXProject "MedicineRemainder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0047B682C059C56000B7707;
+			productRefGroup = F0047B722C059C56000B7707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0047B702C059C56000B7707 /* MedicineRemainder */,
+				F0047B802C059C59000B7707 /* MedicineRemainderTests */,
+				F0047B8A2C059C59000B7707 /* MedicineRemainderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0047B6F2C059C56000B7707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0047B7C2C059C58000B7707 /* Preview Assets.xcassets in Resources */,
+				F0047B792C059C58000B7707 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0047B7F2C059C59000B7707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0047B892C059C59000B7707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBBD9A222CAD6CC7FF5EE7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedicineRemainder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DAAB61E926DCCB3D98624BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedicineRemainderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68ABFB9123B895F07DEA2568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedicineRemainder-MedicineRemainderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75AB19A3DCBB06A44C232158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedicineRemainder-MedicineRemainderUITests/Pods-MedicineRemainder-MedicineRemainderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedicineRemainder-MedicineRemainderUITests/Pods-MedicineRemainder-MedicineRemainderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedicineRemainder-MedicineRemainderUITests/Pods-MedicineRemainder-MedicineRemainderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF13D8F8EDF64368F2A72B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedicineRemainder/Pods-MedicineRemainder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedicineRemainder/Pods-MedicineRemainder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedicineRemainder/Pods-MedicineRemainder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0047B6D2C059C56000B7707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0047BC62C05BF59000B7707 /* MedicineTypeView.swift in Sources */,
+				F0B9432F2C07415900B1569B /* RemainderManager.swift in Sources */,
+				F0047BD82C0644DC000B7707 /* HomeModel.swift in Sources */,
+				F0047BCF2C062469000B7707 /* RemainderObj.swift in Sources */,
+				F0047BBC2C05A643000B7707 /* DateTypeView.swift in Sources */,
+				F0047BC82C05C896000B7707 /* ScheduleView.swift in Sources */,
+				F0047BC42C05BD2E000B7707 /* Enums.swift in Sources */,
+				F0B943362C07703A00B1569B /* String + Extension.swift in Sources */,
+				F0047BBA2C05A59B000B7707 /* HomeViewModel.swift in Sources */,
+				F0047BCC2C061105000B7707 /* NoteView.swift in Sources */,
+				F0047BBE2C05B7B5000B7707 /* AddNewRemainderView.swift in Sources */,
+				F0047BA22C059FCF000B7707 /* HomeView.swift in Sources */,
+				F0047BD22C062624000B7707 /* DatabaseManager.swift in Sources */,
+				F0047BC12C05BD0C000B7707 /* AddNewRemainderViewModel.swift in Sources */,
+				F0047BD52C0635D8000B7707 /* AddNewRemainderModel.swift in Sources */,
+				F0B943342C0754C000B1569B /* Date + Extension.swift in Sources */,
+				F0047BDA2C0647F1000B7707 /* RemainderItemView.swift in Sources */,
+				F0047BA42C059FDE000B7707 /* CalendarView.swift in Sources */,
+				F0047BB72C05A3B8000B7707 /* View + Extension.swift in Sources */,
+				F0047B752C059C56000B7707 /* MedicineRemainderApp.swift in Sources */,
+				F0B943322C07533200B1569B /* DatePicketSheetView.swift in Sources */,
+				F0047BCA2C05DB88000B7707 /* DurationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0047B7D2C059C59000B7707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0047B862C059C59000B7707 /* MedicineRemainderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0047B872C059C59000B7707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0047B922C059C59000B7707 /* MedicineRemainderUITestsLaunchTests.swift in Sources */,
+				F0047B902C059C59000B7707 /* MedicineRemainderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0047B832C059C59000B7707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0047B702C059C56000B7707 /* MedicineRemainder */;
+			targetProxy = F0047B822C059C59000B7707 /* PBXContainerItemProxy */;
+		};
+		F0047B8D2C059C59000B7707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0047B702C059C56000B7707 /* MedicineRemainder */;
+			targetProxy = F0047B8C2C059C59000B7707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0047B932C059C59000B7707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0047B942C059C59000B7707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0047B962C059C59000B7707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4996A9619279361F3772EC2F /* Pods-MedicineRemainder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicineRemainder/Preview Content\"";
+				DEVELOPMENT_TEAM = S2M7GZM839;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedicineRemainder/Info.plist;
+				INFOPLIST_KEY_NSRemindersUsageDescription = "MedicineReminder app want to access your reminder app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pks.MedicineRemainder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0047B972C059C59000B7707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7FE5238A4A08C244DF55D3 /* Pods-MedicineRemainder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedicineRemainder/Preview Content\"";
+				DEVELOPMENT_TEAM = S2M7GZM839;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedicineRemainder/Info.plist;
+				INFOPLIST_KEY_NSRemindersUsageDescription = "MedicineReminder app want to access your reminder app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pks.MedicineRemainder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0047B992C059C59000B7707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CAA53DFF190BED18DF0535 /* Pods-MedicineRemainderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4796Z7JSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pks.MedicineRemainderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicineRemainder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedicineRemainder";
+			};
+			name = Debug;
+		};
+		F0047B9A2C059C59000B7707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5136E8913C38EC6A581D3FE7 /* Pods-MedicineRemainderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4796Z7JSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pks.MedicineRemainderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicineRemainder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedicineRemainder";
+			};
+			name = Release;
+		};
+		F0047B9C2C059C59000B7707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968D5569798F044D32409E67 /* Pods-MedicineRemainder-MedicineRemainderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4796Z7JSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pks.MedicineRemainderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicineRemainder;
+			};
+			name = Debug;
+		};
+		F0047B9D2C059C59000B7707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6CD33C3CFA68B7EE8AC439 /* Pods-MedicineRemainder-MedicineRemainderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4796Z7JSG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pks.MedicineRemainderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicineRemainder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0047B6C2C059C56000B7707 /* Build configuration list for PBXProject "MedicineRemainder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0047B932C059C59000B7707 /* Debug */,
+				F0047B942C059C59000B7707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0047B952C059C59000B7707 /* Build configuration list for PBXNativeTarget "MedicineRemainder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0047B962C059C59000B7707 /* Debug */,
+				F0047B972C059C59000B7707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0047B982C059C59000B7707 /* Build configuration list for PBXNativeTarget "MedicineRemainderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0047B992C059C59000B7707 /* Debug */,
+				F0047B9A2C059C59000B7707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0047B9B2C059C59000B7707 /* Build configuration list for PBXNativeTarget "MedicineRemainderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0047B9C2C059C59000B7707 /* Debug */,
+				F0047B9D2C059C59000B7707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0047B692C059C56000B7707 /* Project object */;
+}

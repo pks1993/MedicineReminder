@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E62E51DC-A6AB-441E-8FDA-94B441614ECA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CCE7E8A-3553-4D79-8E40-E37D745B17C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Main/View/MainTabBarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7874A45D-0C76-4382-9911-ECB2960B9FA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Main/View/MainTabBarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDF29FB2-CA05-462B-B3C4-46ED3341F52C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "deletRemainderById(remainderId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDF29FB2-CA05-462B-B3C4-46ED3341F52C - 86ebe69aed292c26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.HomeViewModel.deletRemainderById(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BDF29FB2-CA05-462B-B3C4-46ED3341F52C - 86ebe69aed292f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.HomeViewModel.deletRemainderById(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BDF29FB2-CA05-462B-B3C4-46ED3341F52C - 86ebe69aed293256"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.HomeViewModel.deletRemainderById(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BDF29FB2-CA05-462B-B3C4-46ED3341F52C - 86ebe69aed2934da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.HomeViewModel.deletRemainderById(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BDF29FB2-CA05-462B-B3C4-46ED3341F52C - 86ebe69aed293405"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.HomeViewModel.deletRemainderById(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEF8D198-156F-41D1-B905-633BEFEAE45E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Remainder/Views/DatePicketSheetView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "928CAF5D-253F-4ECF-8ACB-791BD4BE79D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Managers/RemainderManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "scheduleNotification(remainderObj:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7BA9A12-6229-4379-8532-B941D2E25F8D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Remainder/ViewModel/AddNewRemainderViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "createObj()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7BA9A12-6229-4379-8532-B941D2E25F8D - f7016d9f9332fc07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.AddNewRemainderViewModel.createObj() -&gt; MedicineRemainder.RemainderObj"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Remainder/ViewModel/AddNewRemainderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "A7BA9A12-6229-4379-8532-B941D2E25F8D - f7016d9f9332fcfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.AddNewRemainderViewModel.createObj() -&gt; MedicineRemainder.RemainderObj"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Remainder/ViewModel/AddNewRemainderViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "518F6142-6749-44E8-A92D-D4F4540CFCC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Managers/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "deleteRemainderById(remainderId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "518F6142-6749-44E8-A92D-D4F4540CFCC1 - af8babdcc92bc10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 ((Swift.Result&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in MedicineRemainder.DatabaseManager.deleteRemainderById(remainderId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Managers/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "518F6142-6749-44E8-A92D-D4F4540CFCC1 - af8babdcc92bc94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 ((Swift.Result&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in MedicineRemainder.DatabaseManager.deleteRemainderById(remainderId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Managers/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FA7D80D-5D38-44CC-9EC2-62ADEF24EF49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Managers/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "deleteRemainderById(remainderId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6FA7D80D-5D38-44CC-9EC2-62ADEF24EF49 - 774d8d5c518dd44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in MedicineRemainder.DatabaseManager.deleteRemainderById(remainderId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Managers/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "1492">
+               </Location>
+               <Location
+                  uuid = "6FA7D80D-5D38-44CC-9EC2-62ADEF24EF49 - 774d8d5c518daab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in MedicineRemainder.DatabaseManager.deleteRemainderById(remainderId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Managers/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "1492">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB2848E3-2D63-4DDC-AC9A-A3E648505473"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Managers/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "deleteRemainderById(remainderId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF374517-5F5D-4FCA-BB26-35D53E6043CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "deleteRemainder(remainderId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF374517-5F5D-4FCA-BB26-35D53E6043CC - 24ab5d90bdedda58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in MedicineRemainder.HomeModel.deleteRemainder(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "FF374517-5F5D-4FCA-BB26-35D53E6043CC - 24ab5d90bdedda58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in MedicineRemainder.HomeModel.deleteRemainder(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4883859-6CB7-4EA6-B629-20AAEFAE0CC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "deleteRemainder(remainderId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4883859-6CB7-4EA6-B629-20AAEFAE0CC8 - f4bf05e3d8e64744"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MedicineRemainder.HomeModel.deleteRemainder(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "760">
+               </Location>
+               <Location
+                  uuid = "C4883859-6CB7-4EA6-B629-20AAEFAE0CC8 - f4bf05e3d8e64744"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MedicineRemainder.HomeModel.deleteRemainder(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EE57CF3-4418-457D-9E75-7086287E1F0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "deletRemainderById(remainderId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EE57CF3-4418-457D-9E75-7086287E1F0B - 4c4683943f430669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.HomeModel.deletRemainderById(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "6EE57CF3-4418-457D-9E75-7086287E1F0B - 4c4683943f430669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MedicineRemainder.HomeModel.deletRemainderById(remainderId: Swift.String) -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Models/HomeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00F039E5-DFB8-4182-93F9-228DF3BD72DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/Views/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "00F039E5-DFB8-4182-93F9-228DF3BD72DD - 8afc9787d3faa8cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; MedicineRemainder.AddNewRemainderView in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.actionSheet(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.ActionSheet) -&gt; some&gt;&gt;.0 in MedicineRemainder.HomeView.body.getter : some"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Views/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "00F039E5-DFB8-4182-93F9-228DF3BD72DD - 902512986311420"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 () -&gt; SwiftUI.Alert in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.actionSheet(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.ActionSheet) -&gt; some&gt;&gt;.0 in MedicineRemainder.HomeView.body.getter : some"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/Views/HomeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B93778D5-5796-4493-BB25-9CCB7D01734F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Managers/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "deleteRemainderById(remainderId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B93778D5-5796-4493-BB25-9CCB7D01734F - af8babdcc92bdac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 ((Swift.Result&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in MedicineRemainder.DatabaseManager.deleteRemainderById(remainderId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Managers/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "B93778D5-5796-4493-BB25-9CCB7D01734F - af8babdcc92bdac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 ((Swift.Result&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in MedicineRemainder.DatabaseManager.deleteRemainderById(remainderId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Managers/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "B93778D5-5796-4493-BB25-9CCB7D01734F - 86f8e27b7e1852e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MedicineRemainder.RemainderObj) -&gt; Swift.Bool in closure #1 () -&gt; () in closure #1 ((Swift.Result&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in MedicineRemainder.DatabaseManager.deleteRemainderById(remainderId: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Optional&lt;Swift.Bool&gt;, Swift.Error&gt;"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Managers/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13CD0CB8-A05F-4B0F-8F1D-A3A907DDE9C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Managers/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "deleteRemainderById(remainderId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E717A461-B0B8-473C-B913-658EF13EEF8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Extension/String + Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "convertToDate(formatter:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E717A461-B0B8-473C-B913-658EF13EEF8B - 7a5684e5f0539bd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.convertToDate(formatter: MedicineRemainder.DateFormat) -&gt; Foundation.Date"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Extension/String%20+%20Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "852">
+               </Location>
+               <Location
+                  uuid = "E717A461-B0B8-473C-B913-658EF13EEF8B - 7a5684e5f0539bd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.String.convertToDate(formatter: MedicineRemainder.DateFormat) -&gt; Foundation.Date"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Extension/String%20+%20Extension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "592">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05C14365-20BD-465B-8AF8-28D24243C193"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Remainder/Views/AddNewRemainderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "05C14365-20BD-465B-8AF8-28D24243C193 - 85bf6e1bd3a8da7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 () -&gt; () in MedicineRemainder.AddNewRemainderView.body.getter : some"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Remainder/Views/AddNewRemainderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "05C14365-20BD-465B-8AF8-28D24243C193 - 85bf6e1bd3a8da7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 () -&gt; () in MedicineRemainder.AddNewRemainderView.body.getter : some"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Remainder/Views/AddNewRemainderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "985C4FAF-85A6-459E-B913-3806AB947059"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "bindObserver()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "985C4FAF-85A6-459E-B913-3806AB947059 - 91ba1c9778ac2e8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MedicineRemainder.RemainderObj) -&gt; Swift.Bool in closure #4 (MedicineRemainder.DateType) -&gt; () in MedicineRemainder.HomeViewModel.bindObserver() -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1704">
+               </Location>
+               <Location
+                  uuid = "985C4FAF-85A6-459E-B913-3806AB947059 - 91ba1c9778ac2cfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MedicineRemainder.RemainderObj) -&gt; Swift.Bool in closure #4 (MedicineRemainder.DateType) -&gt; () in MedicineRemainder.HomeViewModel.bindObserver() -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1892">
+               </Location>
+               <Location
+                  uuid = "985C4FAF-85A6-459E-B913-3806AB947059 - 91ba1c9778ac2cfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MedicineRemainder.RemainderObj) -&gt; Swift.Bool in closure #4 (MedicineRemainder.DateType) -&gt; () in MedicineRemainder.HomeViewModel.bindObserver() -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "2124">
+               </Location>
+               <Location
+                  uuid = "985C4FAF-85A6-459E-B913-3806AB947059 - 91ba1c9778ac2cfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MedicineRemainder.RemainderObj) -&gt; Swift.Bool in closure #4 (MedicineRemainder.DateType) -&gt; () in MedicineRemainder.HomeViewModel.bindObserver() -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1964">
+               </Location>
+               <Location
+                  uuid = "985C4FAF-85A6-459E-B913-3806AB947059 - 91ba1c9778ac2cfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (MedicineRemainder.RemainderObj) -&gt; Swift.Bool in closure #4 (MedicineRemainder.DateType) -&gt; () in MedicineRemainder.HomeViewModel.bindObserver() -&gt; ()"
+                  moduleName = "MedicineRemainder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phyokyawswar/Downloads/MedicineRemainderApp/MedicineRemainder/MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "2196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A40BADF-5E12-4960-AC4F-7EAF968C8966"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "bindObserver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "438AF459-4E3F-4402-A448-2DB1B328FA6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineRemainder/Modules/Home/ViewModels/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "bindObserver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

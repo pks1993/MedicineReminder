@@ -1,0 +1,6 @@
+framework module Pods_MedicineRemainder {
+  umbrella header "Pods-MedicineRemainder-umbrella.h"
+
+  export *
+  module * { export * }
+}
