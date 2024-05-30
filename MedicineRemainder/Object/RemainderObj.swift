@@ -10,7 +10,7 @@ import Realm
 import RealmSwift
 
 class RemainderObj : Object , ObjectKeyIdentifiable  {
-    @Persisted var objId : String = ""
+    @Persisted (primaryKey: true) var objId : String = ""
     @Persisted var medicineName : String = "Testing"
     @Persisted var medicineType : String = "tablets"
     @Persisted var scheduleType : String = "daily"
