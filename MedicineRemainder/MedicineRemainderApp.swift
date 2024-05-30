@@ -39,7 +39,6 @@ class AppDelegate: NSObject, UIApplicationDelegate , UNUserNotificationCenterDel
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         // Handle the notification response
         let content = response.notification.request.content
-        print("Tapped on notification with identifier: \(content.title)")
         
         // Show an alert
         let alertController = UIAlertController(title: content.title, message: content.body, preferredStyle: .alert)

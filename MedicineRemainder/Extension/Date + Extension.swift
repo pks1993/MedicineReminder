@@ -93,7 +93,5 @@ extension Date {
         let weekday = calendar.component(.weekday, from: self)
         
         return weekday
-        // Adjust for Sunday being represented as 1
-//        return (weekday + 5) % 7
     }
 }

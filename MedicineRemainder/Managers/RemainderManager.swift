@@ -18,7 +18,7 @@ class RemainderManager {
         /// create date component with DB date
         
         var dateComponent = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: Date())
-//        dateComponent.day = remainderObj.remainderDate.getWeekday()
+
         dateComponent.day = remainderObj.remainderDate.getDayNumber()
         dateComponent.hour = remainderObj.remainderTime.getHour()
         dateComponent.minute = remainderObj.remainderTime.getMinute()

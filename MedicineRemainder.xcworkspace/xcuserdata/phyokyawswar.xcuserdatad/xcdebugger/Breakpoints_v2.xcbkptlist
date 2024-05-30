@@ -148,22 +148,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "928CAF5D-253F-4ECF-8ACB-791BD4BE79D0"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MedicineRemainder/Managers/RemainderManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "scheduleNotification(remainderObj:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "A7BA9A12-6229-4379-8532-B941D2E25F8D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -602,8 +586,8 @@
             filePath = "MedicineRemainder/Extension/String + Extension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "convertToDate(formatter:)"
             landmarkType = "7">
             <Locations>

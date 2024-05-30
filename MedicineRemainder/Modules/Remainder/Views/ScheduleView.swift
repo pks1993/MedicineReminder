@@ -47,7 +47,6 @@ struct ScheduleView: View {
     
     @ViewBuilder
     private func getScheduleView(scheduleTime : ScheduleTime) -> some View {
-//        if !scheduleTime.getTime().isEmpty {
             let selected = addNewRemainderViewModel.selectedScheduleTime == scheduleTime
            
             switch scheduleTime {
@@ -78,13 +77,6 @@ struct ScheduleView: View {
                         alignment: .center
                     )
             }
-            
-            
-//                
-//        }
-//        else {
-//            EmptyView()
-//        }
         
     }
 }
